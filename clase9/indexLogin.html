@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link href = "styleLogin.css" rel = "stylesheet">
+</head>
+<body>
+    <aside>20% de descuento en todos los productos!</aside>
+    <header>
+        <img src = "img/logo.png" alt = "">
+        <h1>Nombre Tienda</h1>
+    </header>
+    
+    <section class = "login">
+        <form action="contacto.html">
+            <legend> Login </legend>
+            <label for = "email"></label>
+            <input type = "email" id = "email" name = "email" placeholder="Usuario" required
+            oninvalid="setCustomValidity('Campo obligatorio')">
+            <br>
+
+            <label for = "password"></label>
+            <input type = "password" id = "password" name = "password" placeholder="Contraseña" required>
+            <br>
+            <button type = "sumbit" >Entrar</button>
+
+            <p> ¿No tenés una cuenta? <a href = "indexReg.html"> Registrarme </a></p>
+    </section>
+    
+    <footer>
+        <h5> Todos los derechos reservados a FRONT END 1 </h5>
+    </footer>
+
+</body>
+</html>

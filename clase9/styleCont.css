@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@300&display=swap');
+body{
+    margin: 0px
+}
+aside{
+    background: #1CD1B0;
+    height: 30px;
+    font-size: 25px;
+    padding-left: 30px;
+}
+header{
+    background-color: #00669F;
+    width: 100%;
+}
+img{
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    margin-left: 20px;
+
+}
+h1{
+    background: #00669F;
+    color: #FFFFFF;
+    height: 120px;
+    font-family: Roboto, sans-serif;
+    font-size: 50px;
+    line-height:120px;
+    margin-left: 150px;
+    margin-top: 0px;
+}
+legend{
+    width: 195px;
+    height: 72px;
+    left: 410px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 72px;
+    margin-bottom: 40px;
+}
+section{
+    width: 500px;
+    margin: 0 auto;
+}
+input{
+    margin-top: 15px;
+    width: 100%;
+    height: 30px;
+}
+textarea{
+    margin-top: 15px;
+     width: 100%;
+    height: 200px;
+    
+}
+button{
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+}
+.botentrar{
+    background-color: #1CD1B0;
+    border-radius: 23.01px;
+    height: 53,79px;
+    width: 49%;
+}
+.botreset{
+    background-color: #888888;
+    border-radius: 23.01px;
+    height: 53,79px;
+    color: white;
+    width: 49%;
+}
+
+h5{
+    font-family: Roboto;
+    font-style: Regula;
+    color: white;
+    Font-size: 25px;
+    Line-height: 100%;
+    text-align: center;
+    Line-height: 100%;
+    top: 35px;
+}
+footer{
+    position: absolute;
+    background-color: #00669F;
+    width: 100%;
+    height: 100px;
+    right: 0px;
+    bottom: 0px;      
+}

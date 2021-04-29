@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anidamiento</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <aside>20% de descuento en todos los productos!</aside>
+    <header>
+
+        <img src="img/logo.png" alt="">
+        <h1>Nombre Tienda</h1>
+
+        <div class="barra">
+            <a href="indexCont.html"> Contacto </a>
+            <a href="indexReg.html"> Registrarme </a>
+            <a href="indexLogin.html"> Ingresar </a>
+        </div>
+
+    </header>
+
+    <main>
+        <section>
+            <h2>Añadi tu super!</h2>
+            <p>Agregá tu personaje favorito completando las opciones.</p>
+
+            <article class = "articulo1">
+
+                <form>
+                    <label for = "nombre"> * Nombre </label>
+                    <input type = "text" id = "nom" name = "nom" placeholder="Nombre" required>
+
+                    <label for = "fecha"> Fecha </label>
+                    <input type = "date" name = "fecha" id = "fecha" placeholder="dd/mm/aaaa" >
+
+                    <label for = "desc"> </label>
+                    <textarea type = "text" name = "desc" id = "desc" placeholder= "Descripcion"> </textarea>            
+                </form>
+
+            </article>
+
+            <article class = "articulo2">
+                <form>
+                    <label for = "especie" > Especie </label>
+
+                    <select name = "especie" id = "espe">
+                        <option disabled selected hidden > Especie </option>
+                        <option value = "Humano"> Humano</option>
+                        <option value = "Animal"> Animal</option>
+                        <option value = "Mounstro"> Mounstro</option>
+                    </select>
+                <div class = "foto">
+                    <label for = "foto"> Agregar foto </label>
+                    <input type = "file" name = "pic" id= "pic" accept=".jpg, .png">
+                </div>
+                    <label id = "poderes" for = "poderes"> Poderes </label>
+                <div class = "volar">
+                    <input type = "checkbox" id = "op1" name = "op1" value = "1" >
+                    <label for = "op1"> Volar </label>
+                </div>
+                <div class = "superinteligencia">
+                    <input type = "checkbox" id = "op2" name = "op2" value = "2" >
+                    <label for = "op1"> Superinteligencia </label>
+                </div>
+                <div class = "vista">
+                    <input type = "checkbox" id = "op3" name = "op3" value = "3" >
+                    <label for = "op1"> Vista de rayo laser </label>
+                </div>
+                <div class = "billetera">
+                    <input type = "checkbox" id = "op4" name = "op4" value = "4" >
+                    <label for = "op1"> Billetera gorda </label>
+                </div>
+                <hr>
+                    <label id = "tipo" for = "tipo">Tipo de personaje</label>
+                <div class = "heroe">
+                    <input type = "radio" name = "tipo" id = "tipo" value = "Héroe / Heroina">
+                    <label for = "heroe"> Heroe / Heroina </label>
+                </div>
+                <div class = "villano">  
+                    <input type = "radio" name = "tipo" id = "tipo" value = "Villano / Villana">
+                    <label for = "villano"> Villano / Villana </label>
+                </div>
+                </form>
+            
+
+            </article>
+            <button class = "boton" type = "submit">Añadir</button>
+        </section>
+    </main>
+
+    <footer>
+        <h5> Todos los derechos reservados a FRONT END 1 </h5>
+    </footer>
+    
+</body>
+</html>
