@@ -199,31 +199,42 @@ footer ul {
         font-size: 3rem;
     }
     h2 {
-        font-size: 2rem;
+        font-size: 3rem;
         text-align: center;
         padding: 30px;
         font-weight: bolder;
     }
     .formulario{
         width: 100%;
-        padding-left: 0;
-        padding-right: 0;
+        padding: 2px;
     }
     .contacto{
         width: 100%;
-        padding-left: 0;
-        padding-right: 0;
-
+        text-align: center;
     }
     p{
         width: 100%;
     }
-
+    section>div{
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 450px){
     /* SMARTPHONE */
     #card-section>div {
-        display: flex
+        flex-direction: column
+    }
+    .bg-header{
+        height: 700px;
+    }
+    .bg-header h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    .formulario{
+        padding: 1px;
     }
 }
